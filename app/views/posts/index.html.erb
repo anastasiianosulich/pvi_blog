@@ -1,0 +1,9 @@
+<h1>POSTS</h1>
+<% if user_signed_in? && current_user.admin? %>
+<li class="nav-item">
+    <%= link_to "Нова стаття ", new_admin_post_path, class: 'btn btn-outline-primary pull-xs-right' %>
+</li>
+<% end %>
+
+<%= render @posts %>
+<%= will_paginate @posts, renderer: 'BootstrapPaginationHelper::LinkRenderer' %>
