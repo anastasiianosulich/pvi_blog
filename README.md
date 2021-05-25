@@ -15,3 +15,5 @@ u.save
 автентифікація різними юзерами; 
 авторизація; 
 режим адміна. 
+
+Основне джерело - https://www.youtube.com/watch?v=CiI7rJqRwWc&list=PL0ZEIs68t9d1qh6Z92-E45R8YBPvgy4wk.  
