@@ -7,6 +7,10 @@ class PostsController < ApplicationController
 
     def show
     end
+
+    def search
+        @posts = Post.where("title LIKE ?", "%" + params[:q] + "%")
+    end
     
     private
 
