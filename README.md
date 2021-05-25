@@ -13,7 +13,9 @@ u.save
 коменти disqus; 
 завантаження зображення; 
 автентифікація різними юзерами; 
-авторизація; 
+авторизація (лише перегляд блогу з постами); 
+пошук за назвою поста (case-sensitive); 
 режим адміна. 
 
 Основне джерело - https://www.youtube.com/watch?v=CiI7rJqRwWc&list=PL0ZEIs68t9d1qh6Z92-E45R8YBPvgy4wk.  
+Реалізація пошуку за назвою - https://www.youtube.com/watch?v=s88Uc0InOAM. 
